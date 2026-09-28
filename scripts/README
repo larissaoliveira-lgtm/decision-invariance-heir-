@@ -1,0 +1,6 @@
+# Repository utility scripts
+
+These scripts were added for public-repository hygiene and artifact verification. They are **not part of the frozen scientific analysis** and do not alter the confirmatory protocol.
+
+- `validate_notebook.py` performs structural JSON/notebook checks without executing code.
+- `verify_sha256.py` verifies a single SHA-256 digest or a JSON path/digest manifest.
