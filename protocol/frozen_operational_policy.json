@@ -1,0 +1,26 @@
+{
+  "primary_near_boundary_quantile": 0.1,
+  "primary_near_boundary_cutoff": 1.516380445723562,
+  "sensitivity_cutoffs": {
+    "q0.05": 0.36595477829033246,
+    "q0.10": 1.516380445723562,
+    "q0.20": 2.233440396368544
+  },
+  "n_calibration": 114,
+  "operational_low_threshold": -0.8472978603872036,
+  "operational_high_threshold": 0.8472978603872034,
+  "policy_sensitivity_probability_pairs": [
+    [
+      0.25,
+      0.75
+    ],
+    [
+      0.3,
+      0.7
+    ],
+    [
+      0.35,
+      0.65
+    ]
+  ]
+}

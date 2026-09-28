@@ -1,0 +1,16 @@
+[
+  {
+    "configuration_id": "ckks_reference_f55_s45",
+    "min_slot_count": 32,
+    "first_mod_bits": 55,
+    "scaling_mod_bits": 45,
+    "role": "reference_precision"
+  },
+  {
+    "configuration_id": "ckks_reduced_f50_s40",
+    "min_slot_count": 32,
+    "first_mod_bits": 50,
+    "scaling_mod_bits": 40,
+    "role": "reduced_precision"
+  }
+]

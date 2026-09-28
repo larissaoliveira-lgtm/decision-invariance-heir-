@@ -1,0 +1,8 @@
+{
+  "locked_test_n": 114,
+  "event_rate_giving_95pct_probability_of_at_least_one_event": 0.025936082013628403,
+  "n_for_1pct_event_at_95pct_detection": 299,
+  "n_for_0_5pct_event_at_95pct_detection": 598,
+  "zero_event_exact_one_sided_upper_bound_95pct": 0.02593608201362844,
+  "interpretation": "The provenance-preserving locked test has limited power for rare disagreements; zero observed events must be reported with this finite-sample upper bound rather than as universal invariance."
+}

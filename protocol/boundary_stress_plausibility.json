@@ -1,0 +1,9 @@
+{
+  "calibration_only": true,
+  "quantile": 0.99,
+  "knn_k": 5,
+  "covariance_estimator": "LedoitWolf shrinkage covariance in standardized feature space",
+  "mahalanobis_squared_threshold": 97.57419780053645,
+  "knn_mean_distance_threshold": 15.088935544425611,
+  "plausibility_rule": "inside calibration marginal min/max AND shrinkage Mahalanobis squared distance <= q99 AND mean kNN distance <= q99"
+}

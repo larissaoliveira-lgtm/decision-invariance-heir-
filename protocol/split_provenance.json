@@ -1,0 +1,13 @@
+{
+  "origin": "exact_v1_0_split_reproduction",
+  "train_test_seed": 42,
+  "train_calibration_seed": 43,
+  "train_fraction": 0.6,
+  "calibration_fraction": 0.2,
+  "locked_test_fraction": 0.2,
+  "split_identity_sha256": "072a3beac08a6df0eab0e7d0441ce015fb59ba32705a363d31251a6cd27ed681",
+  "expected_v1_0_split_identity_sha256": "072a3beac08a6df0eab0e7d0441ce015fb59ba32705a363d31251a6cd27ed681",
+  "locked_test_ids_sha256": "01a94ef6037a0a946162894026bdba111ba44aa1e1bb5a08e3ab1218c0273295",
+  "expected_v1_0_locked_test_ids_sha256": "01a94ef6037a0a946162894026bdba111ba44aa1e1bb5a08e3ab1218c0273295",
+  "claim_scope": "This is the original v1.0 held-out subset, not an external cohort. v1.3 does not create a larger test set by recycling records that appeared in v1.0 development data."
+}
