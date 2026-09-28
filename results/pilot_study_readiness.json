@@ -1,0 +1,9 @@
+{
+  "full_calibration_used": true,
+  "all_pre_specified_configurations_executed": true,
+  "any_operational_disagreement_observed_in_calibration": false,
+  "any_boundary_stress_he_incremental_crossing_observed": true,
+  "any_boundary_stress_end_to_end_crossing_observed": true,
+  "boundary_stress_interpretation": "mechanistic diagnostic only; not a population incidence estimate",
+  "H2_H3_note": "If no operational disagreements occur, H2/H3 remain legitimately not estimable; the study does not tune parameters post hoc to manufacture disagreements."
+}

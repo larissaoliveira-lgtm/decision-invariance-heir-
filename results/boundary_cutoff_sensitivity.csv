@@ -1,0 +1,4 @@
+cutoff_name,cutoff,near_n,far_n,near_disagreements,far_disagreements,status,fisher_odds_ratio,fisher_p_one_sided,is_primary
+q0.05,0.36595477829033246,5,109,0,0,NOT_ESTIMABLE_NO_OPERATIONAL_DISAGREEMENTS,,,False
+q0.10,1.516380445723562,19,95,0,0,NOT_ESTIMABLE_NO_OPERATIONAL_DISAGREEMENTS,,,True
+q0.20,2.233440396368544,28,86,0,0,NOT_ESTIMABLE_NO_OPERATIONAL_DISAGREEMENTS,,,False

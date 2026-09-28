@@ -1,0 +1,32 @@
+{
+  "configuration_a": "ckks_reference_f55_s45",
+  "configuration_b": "ckks_reduced_f50_s40",
+  "direction": "B minus A",
+  "primary_endpoint": "delta_incremental_HE_MAE_vs_float32_export",
+  "delta_incremental_he_mae": 3.80208356338635e-08,
+  "delta_incremental_he_mae_ci": [
+    -8.731925239165619e-08,
+    1.6862044535708006e-07
+  ],
+  "paired_signflip_randomization_p_two_sided": 0.5717214139293035,
+  "standardized_paired_mean_difference": 0.0537138591551129,
+  "primary_H4_difference_detected_by_bootstrap_ci": false,
+  "secondary_delta_incremental_he_p95_error": 1.549720764160174e-07,
+  "secondary_delta_incremental_he_p95_error_ci": [
+    -1.5497207641601698e-07,
+    7.152557373046875e-07
+  ],
+  "secondary_delta_total_output_mae": -4.800825399598308e-08,
+  "secondary_delta_total_output_mae_ci": [
+    -1.6145733938593677e-07,
+    6.974292262927058e-08
+  ],
+  "secondary_delta_operational_disagreement_rate": 0.0,
+  "secondary_delta_operational_disagreement_rate_ci": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_reps": 10000,
+  "randomization_reps": 20000,
+  "confidence_level": 0.95
+}

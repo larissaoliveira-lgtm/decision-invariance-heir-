@@ -1,0 +1,1 @@
+{"all_repeats_disagreement_rate":0.0,"any_repeat_disagreement_rate":0.0,"max_per_repeat_disagreement_rate":0.0,"max_score_spread_across_repeats":2.86102294921875e-06,"p95_score_spread_across_repeats":2.2083520889282216e-06,"primary_repeat":0,"repeat_action_instability_count":0,"repeat_action_instability_rate":0.0,"uncertainty_unit":"sample, never sample-times-repeat"}
