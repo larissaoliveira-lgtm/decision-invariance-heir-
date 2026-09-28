@@ -1,0 +1,17 @@
+{
+  "project_name": "decision-invariance-heir-cross-workload-banknote-v1-0-1",
+  "study_version": "replication-1.0.1",
+  "study_mode": "PILOT",
+  "run_id": "20260928T140823997961Z",
+  "bundle_filename": "decision-invariance-heir-cross-workload-banknote-v1-0-1_PILOT_BUNDLE_20260928T140823997961Z.zip",
+  "confirmatory_freeze_sha256": "18a4f86aa3d221302e25668705b6b338ff14b150e462949edf853810069d7662",
+  "bundle_sha256": "46f91134f6d502d3433a4e78a62814349b170bcad36f5cf904f51eb0119733d8",
+  "bundle_size_bytes": 13463617,
+  "archive_file_count": 193,
+  "frozen_artifact_count": 14,
+  "all_frozen_artifacts_verified": true,
+  "all_frozen_artifacts_present_in_zip": true,
+  "all_frozen_artifact_hashes_verified_in_zip": true,
+  "locked_test_access_granted": false,
+  "locked_test_materialized": false
+}
