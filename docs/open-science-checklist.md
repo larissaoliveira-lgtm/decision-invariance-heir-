@@ -1,0 +1,22 @@
+# Open-science release checklist
+
+- [x] Main PILOT notebook preserved.
+- [x] Main CONFIRMATORY notebook preserved as a clean runner.
+- [x] Frozen protocol and operational policy preserved.
+- [x] Split provenance and SHA-256 identities preserved.
+- [x] HE configuration specifications preserved.
+- [x] Environment lock/provenance files preserved.
+- [x] PILOT outputs and figures preserved.
+- [x] Main confirmatory aggregate outputs and integrity records preserved.
+- [x] Main confirmatory status reconciled with the frozen PILOT state.
+- [x] Main confirmatory bundle independently hash-checked against its internal manifest.
+- [x] Full PILOT reproducibility bundle separated as a release asset.
+- [x] Full main confirmatory reproducibility bundle separated as a release asset.
+- [x] Cross-workload Banknote PILOT and CONFIRMATORY notebooks preserved.
+- [x] Banknote bundle verification records and SHA-256 files preserved.
+- [x] Utility validation scripts added for repository hygiene; these are not part of the frozen scientific analysis.
+- [ ] Public repository URL inserted into publication metadata where required.
+- [ ] Public license selected and added.
+- [ ] Final public release tag created.
+- [ ] Release asset hashes independently checked after GitHub upload.
+- [ ] DOI/Zenodo metadata added if used.
