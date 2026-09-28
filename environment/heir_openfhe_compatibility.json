@@ -1,0 +1,28 @@
+{
+  "heir_py_version_pinned": "2026.9.1",
+  "heir_release_commit": "5eaf0be77f9c07428e37d21cf4d7313d1295872e",
+  "heir_source_commit_resolved": "5eaf0be77f9c07428e37d21cf4d7313d1295872e",
+  "heir_openfhe_bcr_version": "1.4.2.bcr.1",
+  "openfhe_base_version": "1.4.2",
+  "openfhe_git_ref": "v1.4.2",
+  "openfhe_commit_resolved": "aa391988d354d4360f390f223a90e0d1b98839d7",
+  "heir_openfhe_patch_records": [
+    {
+      "patch": "openfhe.patch",
+      "sha256": "9f2b6cab37ad87bbefe78851ca0298a5625828d6f66c4c9ced0d0601aa8bc3b1",
+      "changed_files": [
+        "BUILD"
+      ],
+      "source_relevant_files": []
+    },
+    {
+      "patch": "openfhe_module.patch",
+      "sha256": "252756da2e57f9f2aaf23fef0ad1609b3616515a845cfe4102ef1b4346b58dd7",
+      "changed_files": [
+        "MODULE.bazel"
+      ],
+      "source_relevant_files": []
+    }
+  ],
+  "system_install_note": "Direct OpenFHE CMake install; HEIR Bazel-only patch files are recorded but not applied."
+}

@@ -1,0 +1,45 @@
+{
+  "heir_opt_found": true,
+  "ckks_mentions_in_help": [
+    "Available Dialects: affine, arith, bgv, bufferization, builtin, cggi, cheddar, ckks, comb, debug, emitc, func, jaxite, jaxiteword, kernel, key_mgmt, lattigo, linalg, llvm, lwe, math, math_ext, memref, mgmt, mod_arith, openfhe, orion, polynomial, poulpy, preprocessing, random, rns, rotom, scf, scifrbool, secret, tensor, tensor_ext, tfhe_rust, tfhe_rust_bool",
+    "--ckks-decompose-relinearize                      -   Decomposes ckks:relinearize into ckks:keyswitchinner and addition",
+    "--ckks-tigris-estimator                           -   Estimate resources for the CKKS program on Cornami Tigris chip(s)",
+    "--ckks-to-lwe                                     -   Lower `ckks` to `lwe` dialect.",
+    "--generate-param-ckks                             -   Generate CKKS Scheme Parameter",
+    "--input-range=<int>                             - The range of the plaintexts for input ciphertexts for the CKKS scheme; default to [-1, 1]. For other ranges like [-D, D], use D.",
+    "--scale-waterline=<int>                         - Orbit waterline/base scale bits (Sw). Non-CKKS level-only mode uses this for both Sw and Sf.",
+    "--level-budget-decode=<int>                     - Level budget for CKKS bootstrap decode (c2s) phase",
+    "--level-budget-encode=<int>                     - Level budget for CKKS bootstrap encode (s2c) phase",
+    "--populate-scale-ckks                             -   Populate the scale for CKKS ciphertext",
+    "--secret-insert-mgmt-ckks                         -   Place CKKS ciphertext management operations",
+    "--secret-to-ckks                                  -   Lower `secret` to `ckks` dialect.",
+    "--first-mod-bits=<int>                          - The number of bits in the first modulus for CKKS",
+    "--scaling-mod-bits=<int>                        - The number of bits in the scaling modulus for CKKS",
+    "--first-mod-bits=<int>                          - The number of bits in the first modulus for CKKS",
+    "--scaling-mod-bits=<int>                        - The number of bits in the scaling modulus for CKKS",
+    "--mlir-to-ckks                                    -   Convert a func using standard MLIR dialects to FHE using CKKS.",
+    "--first-mod-bits=<int>                          - The number of bits in the first modulus for CKKS",
+    "--scaling-mod-bits=<int>                        - The number of bits in the scaling modulus for CKKS",
+    "--first-mod-bits=<int>                          - The number of bits in the first modulus for CKKS",
+    "--scaling-mod-bits=<int>                        - The number of bits in the scaling modulus for CKKS",
+    "--torch-linalg-to-ckks                            -   Convert linalg MLIR exported from torch to CKKS",
+    "--first-mod-bits=<int>                          - The number of bits in the first modulus for CKKS",
+    "--scaling-mod-bits=<int>                        - The number of bits in the scaling modulus for CKKS"
+  ],
+  "pre_specified_configurations": [
+    {
+      "configuration_id": "ckks_reference_f55_s45",
+      "min_slot_count": 32,
+      "first_mod_bits": 55,
+      "scaling_mod_bits": 45,
+      "role": "reference_precision"
+    },
+    {
+      "configuration_id": "ckks_reduced_f50_s40",
+      "min_slot_count": 32,
+      "first_mod_bits": 50,
+      "scaling_mod_bits": 40,
+      "role": "reduced_precision"
+    }
+  ]
+}

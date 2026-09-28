@@ -1,0 +1,24 @@
+{
+  "python_implementation": "CPython",
+  "python_full_version": "3.13.15",
+  "python_version_info": [
+    3,
+    13,
+    15
+  ],
+  "python_build": [
+    "main",
+    "Aug  6 2026 11:06:22"
+  ],
+  "python_executable": "/usr/bin/python3.13",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "system": "Linux",
+  "release": "6.6.122+",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "libc": {
+    "name": "glibc",
+    "version": "2.39"
+  },
+  "ldd_version_line": "ldd (Ubuntu GLIBC 2.39-0ubuntu8.9) 2.39"
+}

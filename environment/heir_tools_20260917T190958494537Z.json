@@ -1,0 +1,10 @@
+{
+  "heir-opt": {
+    "path": "/usr/local/bin/heir-opt",
+    "version_output": "LLVM (http://llvm.org/):\n  LLVM version 24.0.0git\n  Optimized build."
+  },
+  "heir-translate": {
+    "path": "/usr/local/bin/heir-translate",
+    "version_output": "LLVM (http://llvm.org/):\n  LLVM version 24.0.0git\n  Optimized build."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "python_implementation": "CPython",
+  "python_full_version": "3.13.15",
+  "python_version_info": [
+    3,
+    13,
+    15
+  ],
+  "python_build": [
+    "main",
+    "Aug  6 2026 11:06:22"
+  ],
+  "python_executable": "/usr/bin/python3.13",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "system": "Linux",
+  "release": "6.6.122+",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "libc": {
+    "name": "glibc",
+    "version": "2.39"
+  },
+  "ldd_version_line": "ldd (Ubuntu GLIBC 2.39-0ubuntu8.9) 2.39",
+  "timestamp_utc": "2026-09-17T19:56:49.738723+00:00",
+  "study_mode": "CONFIRMATORY",
+  "study_version": "1.3.0",
+  "environment_contract": {
+    "python_implementation": "CPython",
+    "python_major_minor": [
+      3,
+      13
+    ],
+    "system": "Linux",
+    "machine": "x86_64"
+  },
+  "heir_release_commit": "5eaf0be77f9c07428e37d21cf4d7313d1295872e",
+  "heir_openfhe_bcr_version": "1.4.2.bcr.1",
+  "openfhe_requested_ref": "v1.4.2",
+  "openfhe_resolved_commit": "aa391988d354d4360f390f223a90e0d1b98839d7",
+  "heir_py_version": "2026.9.1"
+}
